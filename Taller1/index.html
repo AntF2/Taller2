@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Restaurante El Despertar Sabroso</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.10/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="amarillo" href="index.html"><img src="pictures/eldespertar-removebg-preview.png" width="90">El despertar </a> <a class="navbar-brand" href="index.html"> sabroso</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facturacion.html">Facturación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <button id="modoBtn" class="btn btn-light"><img
+                src="pictures/modoscuro.png"
+                width="27"></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section main-banner" id="top" data-section="section1">
+    <video autoplay muted loop id="bg-video">
+      <source src="pictures/Sin título.mp4" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay header-text">
+      <div class="caption">
+        <h6>"Empieza cada día con un despertar sabroso que despierte tus sentidos y te llene de energía para conquistar
+          el mundo."
+        </h6>
+        <h2><em>¡Pide</em> ya!</h2>
+        <div class="main-button">
+          <div class="scroll-to-section"><a href="productos.html"><img src="pictures/pngwing.com.png" width="200"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section data-section="section2">
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 style="text-align: center; color: rgb(127, 127, 127);">Destacados</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>Desayuno de la Granja</a></li>
+              <li><a href='#tabs-2'>Burrito Matutino</a></li>
+              <li><a href='#tabs-3'>Omelette de la Casa</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <section class="rwa">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="pictures/plato7.jpg" style="border-radius: 15%; ">
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Desayuno de la Granja</h4>
+                      <p>Huevos frescos de granja, bacon, salchichas caseras, papas a la francesa y pan tostado con
+                        mantequilla. Una opción clásica y reconfortante que nunca pasa de moda.</p>
+                    </div>
+                  </div>
+                </section>
+              </article>
+              <article id='tabs-2'>
+                <section class="rwa">
+                  <div class="row">
+
+                    <div class="col-md-6">
+                      <h4>Burrito Matutino</h4>
+                      <p>Tortilla de harina rellena de huevos revueltos, tocino crujiente, queso cheddar, pico de gallo
+                        y aguacate. ¡Un desayuno sabroso y reconfortante que te hará empezar el día con energía!</p>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="pictures/mini8.jpg" alt="" style="border-radius: 15%;">
+                    </div>
+                  </div>
+                </section>
+              </article>
+              <article id='tabs-3'>
+                <section class="rwa">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="pictures/mini6.jpg" alt="" style="border-radius: 15%;">
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Omelette de la Casa</h4>
+                      <p>Relleno de champiñones frescos, espinacas y queso suizo. ¡Una explosión de sabor para comenzar
+                        el día</p>
+                    </div>
+                  </div>
+                </section>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vermas"><a href="productos.html"><img src="pictures/ver.png" width="200"></a></div>
+  </section>
+  </section>
+  <footer>
+    <p>Desarrollado por Anthony Franco - Página de Inicio</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
